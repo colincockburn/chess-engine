@@ -240,9 +240,6 @@ void findLegalKingMoves(short item, short location, short* gameState, std::vecto
             legalMoves.push_back(target);
         }
     }
-    // Rest of the code...
-
-
         // handle castle
         // short castle
         // this is expensive. find asnwer from somewhere else and store it
