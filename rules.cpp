@@ -5,10 +5,7 @@
 #include "utility.h" 
 
 
-
-
 std::vector<short> findSudoLegalMoves(short item, short location, short* gameState, short colorAtBottom){
-
     
     std::vector<short> legalMoves;
     if(item >= 3 && item <= 5 || item >= 11 && item <= 13 || item == 16 || item == 8){
