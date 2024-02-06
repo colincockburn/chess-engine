@@ -142,7 +142,6 @@ void findLegalNightMoves(short item, short location, short* gameState, std::vect
             legalMoves.push_back(target);
         }
     }
-    // Rest of the code...
 }
 
 
